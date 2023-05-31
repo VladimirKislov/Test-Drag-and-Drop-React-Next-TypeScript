@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.titleIsDrag {
+    background-color: #999;
+    color: yellow;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.listItem:not(:last-child) {
+    margin-right: 15px;
+}
+
+.pageItem {
+    width: 100%;
+    height: max-content;
+    min-height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #eee;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapperChild {
+    display: flex;
+}
+
+.titleIsDrop {
+    position: relative;
+}
+
+.line {
+    height: 15px;
+    border: 1px solid #333;
+    position: absolute;
+    top: -26px;
+    left: 50%;
+}

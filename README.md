@@ -1,9 +1,15 @@
-#Тестовое Задание
-##Демонстрационное приложение для управления иерархией вложенных страниц с использованием React, Next.js, Typescrip
+# Тестовое Задание
+## Демонстрационное приложение для управления иерархией вложенных страниц с использованием React, Next.js, Typescrip
 
-Для Запуска:
-используйте команду npm install
-После установки зависимостей запустите приложение командой npm run dev
+### Для Запуска:
+используйте команду
+```bash
+npm install
+```
+После установки зависимостей запустите приложение командой
+```bash
+npm run dev
+```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
